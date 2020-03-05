@@ -2,20 +2,19 @@ import validator from './validator.js';
 
 /* */
 
-const nextPage = document.getElementById("Siguiente1");
-nextPage.addEventListener("click", () => {
+const nextPage = document.getElementById('Siguiente1');
+nextPage.addEventListener('click', () => {
 
-document.getElementById('login').classList.add("ocultar");
-document.getElementById('signup').classList.remove("ocultar");
+document.getElementById('login').classList.add('ocultar');
+document.getElementById('signup').classList.remove('ocultar');
 
 });
 
-// Declarando variable para llamar al boton de Validar y si es true la validacion que vaya a la vista 3 de lo contrario siga en vista 2
-// Y que si es una Tarjeta Validada  que me devuelva los numeros de la tarjeta original con # y los 4 ultimos digitos normal
+/* obteniendo el credit card */
 
 let creditCard = document.getElementById('creditCard');
 
-const check = document.getElementById("ValidarCardNumber");
+const check = document.getElementById('ValidarCardNumber');
 check.addEventListener( "click" , () => {
   let x = validator.isValid(creditCard.value);
   if (x == true) {

@@ -52,12 +52,12 @@
        <form action="" method="get">
 
               <h1 style="color: #fff;">REGISTRATE</h1>
-              <input type="text" id="nameTitular" minlength="3" maxlength="100" pattern="[a-zA-Z]" name="username" placeholder="Nombres y Apellido" required=""><br><br>
+              <input type="text" id="nombreCompleto" minlength="3" maxlength="100" pattern="[a-zA-Z]" name="username" placeholder="Nombres y Apellido" required=""><br><br>
           
               <input type="password" name="pass" placeholder="Contraseña" required=""><br><br>    
               <input type="text" id = "email"  placeholder="Email:sabina@outlook" required="" ><br><br> 
               
-              <img class="franquisiasCard" src="IMG/franquisias_card.png"> 
+              <img class="tiposTarjeta" src="IMG/tipo-de-tarjeta.png"> 
 
               <input type="text" id = "creditCard" minlength="11" maxlength="16"  pattern="[0-9]+" placeholder="Ingresar N° de Tarjeta " required >
               <br>
@@ -94,7 +94,7 @@
     
                   <br /> <br />
               <button type="button" id="ValidarCardNumber">VALIDAR</button>
-              <button type="button" id="btnRegresar">REGRESAR</button>
+              <button type="button" id="Regresar1">REGRESAR</button>
               
       </form>
     </section>
@@ -109,44 +109,10 @@
               <br>
           
               <br>
-              <button type="button" id="btnRegresar2">Regresar</button>
+              <button type="button" id="Regresar2">Regresar</button>
       </form>
     </section>
-
-
-
-
-
-
-
-<!-- Creando formulario con los campos requeridos para simular un pasarela de pagos  -->
-
-    <section id="vista4" class="ocultar">
-      <form action="" method="get">
-              <legend><strong>RESUMEN DE PAGO </strong></legend>
-              <strong>
-              <p> Laboratoria S.A.C </p>
-              <p>  RUC 20566216281 </p>
-              <br>
-              <strong><p align = "center" id="comprobanteTarjeta"></p></strong>
-              <strong><p align = "center" id="comprobanteTitular"></p></strong>
-              <br>
-              <strong><p align = "center" id="comprobanteCodigo"></p></strong>
-              <strong><p align = "center" id="comprobanteModalidad"></p></strong>
-              <strong><p align = "center" id="comprobanteCore"></p></strong>
-              <strong><p align = "center" id="comprobanteMonto"></p></strong>
-              <br>
-              <strong><p align = "center" id="comprobanteEmail"></p></strong>
-              </strong>
-              <br>
-              <button type="button" id="btnFinalizar">Finalizar</button>
-      </form>
-    </section>
- </main>
-
-
-
- 
+ </main> 
  <footer class="footer">
    <strong>© Sabina Canchumani Huaman </strong>
  </footer>

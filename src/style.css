@@ -180,7 +180,7 @@ a:hover
   margin-top:-10px;
 }
 
-#nameTitular{
+#nombreCompleto{
   text-align:center;
   font-size: 13px;
   width:188px;
@@ -220,7 +220,7 @@ a:hover
   margin-right:20px;
 }
 
-#btnRegresar{
+#Regresar1{
   border: none;
   width: 80px;
   background: white;
@@ -230,43 +230,23 @@ a:hover
   padding: 10px 0;
   border-radius: 15px;
   cursor: pointer;
-  margin-left:0px;
+  margin-left:20px;
 }
 
-#btnRegresar2{
-background:#2d98d6;
-border-radius:1000px;
-box-shadow:0 1px #444444;
-width:140px;
-height:40px;
-color:#ffffff;
-display:inline-block;
-font:normal bold 24px/30px "Calibri", sans-serif;
-text-align:center;
-text-shadow:1px 1px #000000;
+#Regresar2{
+  border: none;
+  width: 80px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right:20px;
 }
 
-#btnFinalizar{
-  background:#c27ba0;
-  border-radius:1000px;
-  box-shadow:0 1px #444444;
-  width:140px;
-  height:40px;
-  color:#ffffff;
-  display:inline-block;
-  font:normal bold 24px/30px "Calibri", sans-serif;
-  text-align:center;
-  text-shadow:1px 1px #000000;
-}
-
-.procesos{
-  width:310px;
-  height:80px;
-  margin-top: -30px;
-
-}
-
-.franquisiasCard{
+.tiposTarjeta{
   width:200px;
   height:50px;
   margin-top:-13px;

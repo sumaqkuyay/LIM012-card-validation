@@ -6,13 +6,150 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <h1>Prueba</h1>
+    <header>
+    </header>
+    <main>
+<!-- Creando formulario para el login de la clinica-->
 
-    <button type="button" id="btn">Click aqui</button>
+      <section id="login">
+        <form action="" method="get">
+               <div id="caja">
+                  <!--Imagen logo de la clinica-->
+                 <img src="IMG/logo-clinica.png" class="logo">
+   
+<!--Tipo de Documentos DNI|Carnet Extranjeria|pasaporte|Carnet Identidad-->
 
-    <script src="index.js" type="module"></script>
-  </body>
+                    <select id="docType">
+                        <option> DNI</option>
+                        <option> CARNET EXTRANJERIA</option>
+                        <option> PASAPORTE</option>
+                        <option> CARNET IDENTIDAD</option>
+                    </select>
+                </div> 
+<!------------------------------------------------------------------------>
+<!------------Los 2 campos a llenar---------------->
+              <h1 style="color:#fff;">Iniciar Sesión</h1>
+              <br><input type="text" name="dninumber" placeholder="N° documento - DNI"/><br /><br />
+              <input type="password" name="password" placeholder="Contraseña" /><br /><br />
+<!--Boton siguiente-->
+              <br /><button type="button" id="Siguiente1">SIGUIENTE</button>
+<!------------------->
+<!-------Contenedor para contraseñas------->
+              <div id="container">
+                   <br /><a href="re.html" style=" margin-right:20px; font-size:12px; font-family:Tahoma, Geneva, sans-serif;">Reiniciar Contraseña</a>
+                  <a href="for.html" style=" margin-left:0px; font-size:12px; font-family:Tahoma, Geneva, sans-serif;">Olvide Contraseña</a>
+              </div><br /> 
+<!----------------------------------------->
+<!------No tienes cuenta------->
+¿No tienes una cuenta?<a href="sgnup.html" style="font-family:'Play', sans-serif;">&nbsp;Registrate</a>
+<!----------------------------->
+        </form>
+      </section>
+
+<!-- Creando formulario para validador de tarjetas -->
+
+     <section id="signup" class="ocultar">
+       <form action="" method="get">
+
+              <h1 style="color: #fff;">REGISTRATE</h1>
+              <input type="text" id="nameTitular" minlength="3" maxlength="100" pattern="[a-zA-Z]" name="username" placeholder="Nombres y Apellido" required=""><br><br>
+          
+              <input type="password" name="pass" placeholder="Contraseña" required=""><br><br>    
+              <input type="text" id = "email"  placeholder="Email:sabina@outlook" required="" ><br><br> 
+              
+              <img class="franquisiasCard" src="IMG/franquisias_card.png"> 
+
+              <input type="text" id = "creditCard" minlength="11" maxlength="16"  pattern="[0-9]+" placeholder="Ingresar N° de Tarjeta " required >
+              <br>
+              <select id="mes">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                </select>
+
+                <select id="año">
+                  <option>15</option>
+                  <option>16</option>
+                  <option>17</option>
+                  <option>18</option>
+                  <option>19</option>
+                  <option>20</option>
+                  <option>21</option>
+                  <option>22</option>
+                  <option>23</option>
+                  <option>24</option>
+                  <option>25</option>
+                  </select>
+
+                  <input type="text" id = "seguridad" minlength="3" maxlength="3" pattern="[0-9]+" placeholder="CVV " required="" >
+    
+                  <br /> <br />
+              <button type="button" id="ValidarCardNumber">VALIDAR</button>
+              <button type="button" id="btnRegresar">REGRESAR</button>
+              
+      </form>
+    </section>
+
+<!-- Creando formulario con los campos requeridos para simular un pasarela de pagos  -->
+
+    <section id="vista3" class="ocultar">
+      <form action="" method="get">
+
+               <h1 style="color: #fff;">Datos del Registro </h1>
+              <strong><p align = "center" id="tarjetaOculta"></p></strong>
+              <br>
+          
+              <br>
+              <button type="button" id="btnRegresar2">Regresar</button>
+      </form>
+    </section>
+
+
+
+
+
+
+
+<!-- Creando formulario con los campos requeridos para simular un pasarela de pagos  -->
+
+    <section id="vista4" class="ocultar">
+      <form action="" method="get">
+              <legend><strong>RESUMEN DE PAGO </strong></legend>
+              <strong>
+              <p> Laboratoria S.A.C </p>
+              <p>  RUC 20566216281 </p>
+              <br>
+              <strong><p align = "center" id="comprobanteTarjeta"></p></strong>
+              <strong><p align = "center" id="comprobanteTitular"></p></strong>
+              <br>
+              <strong><p align = "center" id="comprobanteCodigo"></p></strong>
+              <strong><p align = "center" id="comprobanteModalidad"></p></strong>
+              <strong><p align = "center" id="comprobanteCore"></p></strong>
+              <strong><p align = "center" id="comprobanteMonto"></p></strong>
+              <br>
+              <strong><p align = "center" id="comprobanteEmail"></p></strong>
+              </strong>
+              <br>
+              <button type="button" id="btnFinalizar">Finalizar</button>
+      </form>
+    </section>
+ </main>
+
+
+
+ 
+ <footer class="footer">
+   <strong>© Sabina Canchumani Huaman </strong>
+ </footer>
+ <script src="index.js" type="module"></script>
+</body>
 </html>

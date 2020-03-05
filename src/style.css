@@ -1,0 +1,273 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:"Calibri", sans-serif;
+  color: #212524 ;
+  font-size: 15px;
+
+}
+
+body{
+  font-family: Tahoma, Geneva, sans-serif;
+  background-image:url(IMG/fondo-de-pantalla.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+/*Todas las secciones*/
+section
+{
+    background: rgba(56, 90, 182, 0.664);
+    padding: 40px;
+    width: 230px;
+    margin: auto;
+    margin-top: 90px;
+    height: 370px;
+    margin-left: 180x;
+    
+
+}
+h1{
+  color: #000;
+  font-size: 25px;
+}
+/*Todos los forms*/
+form
+{
+    width: 240px;
+    text-align: center;
+}
+
+/*trasparencia de todos los campos input a llenar */
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+/*----------------------------------*/
+
+
+.ocultar {
+  display: none;
+}
+
+.footer{
+  text-align: center;
+  padding: 22px;
+}
+
+/* label de tipo de documento*/
+label
+{
+  margin-left:50px;
+}
+#docType {
+  width:70px;
+  height:20px;
+  margin-bottom:20px;
+
+}
+.logo{
+  width:75px;
+  height:75px;
+  text-align: center;
+
+}
+/*La parte inferior de la pantalla*/
+
+a
+{
+    color: yellow;
+    text-decoration: blink;
+}
+a:hover
+{
+    color: skyblue;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; /* Firefox */
+}
+/*-------------------------------*/
+
+#tarjetaOculta{
+  font-family:"Calibri", sans-serif;
+  font-size: 19px;
+  color:#e92357;
+
+}
+
+#codigo{
+
+  width:182px;
+  height:21px;
+  margin-top:3px;
+  text-align:center;
+}
+
+#core{
+  width:186px;
+  height:25px;
+  margin-top:3px;
+  text-align:center;
+}
+
+#modalidad{
+  width:186px;
+  height:25px;
+  margin-top:3px;
+  text-align:center;
+
+}
+
+#monto{
+  width:186px;
+  height:25px;
+  margin-top:3px;
+  text-align:center;
+}
+
+#creditCard{
+  text-align:center;
+  width:190px;
+  height:24px;
+}
+
+#vencimiento{
+  text-align:center;
+  width:90px;
+  height:19px;
+}
+
+#mes{
+  text-align:center;
+  width:45px;
+  height:25px;
+  margin-top:-10px;
+}
+
+#año{
+  text-align:center;
+  width:45px;
+  height:25px;
+  margin-top:-10px;
+}
+
+#seguridad{
+  text-align:center;
+  width:90px;
+  height:21px;
+  margin-top:-10px;
+}
+
+#nameTitular{
+  text-align:center;
+  font-size: 13px;
+  width:188px;
+  height:21px;
+  margin-top:3px;
+}
+
+#email{
+  text-align:center;
+  width:188px;
+  height:21px;
+  margin-top:3px;
+}
+
+#Siguiente1{
+  border: none;
+  width: 190px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#ValidarCardNumber{
+  border: none;
+  width: 80px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right:20px;
+}
+
+#btnRegresar{
+  border: none;
+  width: 80px;
+  background: white;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left:0px;
+}
+
+#btnRegresar2{
+background:#2d98d6;
+border-radius:1000px;
+box-shadow:0 1px #444444;
+width:140px;
+height:40px;
+color:#ffffff;
+display:inline-block;
+font:normal bold 24px/30px "Calibri", sans-serif;
+text-align:center;
+text-shadow:1px 1px #000000;
+}
+
+#btnFinalizar{
+  background:#c27ba0;
+  border-radius:1000px;
+  box-shadow:0 1px #444444;
+  width:140px;
+  height:40px;
+  color:#ffffff;
+  display:inline-block;
+  font:normal bold 24px/30px "Calibri", sans-serif;
+  text-align:center;
+  text-shadow:1px 1px #000000;
+}
+
+.procesos{
+  width:310px;
+  height:80px;
+  margin-top: -30px;
+
+}
+
+.franquisiasCard{
+  width:200px;
+  height:50px;
+  margin-top:-13px;
+}
